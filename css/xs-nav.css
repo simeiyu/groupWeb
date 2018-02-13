@@ -1,0 +1,183 @@
+@media (max-width: 767px) {
+	body{
+		width: 100%;
+		overflow-x: hidden;
+	}
+	.navbar{
+		position: fixed;
+		top:0;
+		left: 0;
+		z-index: 999;
+		padding: 0;
+		margin: 0;
+		height: 50px;
+		width: 100%;
+	}
+	.navbar .container{
+		padding: 0;
+	}
+	.navbar-toggle{
+		float: left;
+		margin: 12px;
+		padding: 6px;
+		border-color: rgba(255,255,255,1);
+		-ms-transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		/* transition: all 500ms ease 0s; */
+	}
+	.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+		background-color: rgba(255,255,255,0.4);
+		border-color: rgba(255,255,255,0.1);
+	}
+	.open{
+		background-color: rgba(255,255,255,0.4);
+		border-color: rgba(255,255,255,0.1);
+		-ms-transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+		-moz-transform: rotate(360deg);
+		-o-transform: rotate(360deg);
+		transform: rotate(360deg);
+		-moz-transition: all 500ms ease 0s;
+		-webkit-transition: all 500ms ease 0s;
+		-o-transition: all 500ms ease 0s;
+		transition: all 500ms ease 0s;
+	}
+	.collapsed{
+		background-color: rgba(255,255,255,0);
+		border-color: rgba(255,255,255,1);
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		width: 16px;
+		height: 2px;
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar + .icon-bar{
+		margin-top: 3px;
+	}
+	.navbar-brand{
+		text-indent: -999em;
+		float: none;
+		margin: 0 auto;
+		width: 40%;
+		max-width: 240px;
+		height: 50px;
+		padding: 0;
+		display: inline-block;
+		background-position: center;
+		background-size:100% auto;
+	}
+	.navbar-form{
+		border:none;
+		-moz-box-shadow: none;
+		-webkit-box-shadow: none;
+		-o-box-shadow: none;
+		box-shadow: none;
+		padding: 0;
+	}
+	.navbar .container > .navbar-right{
+		position: absolute;
+		right: 12px;
+		top: 12px;
+		width: 40%;
+	}
+	.input-group{
+		width: 100%;
+		height: 26px;
+		margin-top: 0;
+	}
+	.input-group > input.form-control{
+		height: 26px;
+		padding: 2px 20px 2px 6px;
+		border-color: hsla(0, 0%, 100%, 1);
+	}
+	.input-group-btn{
+		width: 28px;	
+	}
+	.btn.btn-default{
+		padding: 5px 7px 0;	
+		font-size: 12px;
+		line-height: 18px;
+		margin: 0;
+		opacity: 1;
+	}
+	.input-group:hover > input.form-control,.navbar .input-group.active > input.form-control{
+		width: 100%;
+	}
+	.navbar-collapse.xs-menu{
+		position: fixed;
+		left: -210px;
+		top: 0;
+		z-index: 999;
+		width: 210px;
+		background-color: #31384d;
+		overflow-y: auto;
+		overflow-x: hidden;
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+	.xs-menu > ul{
+		margin-top: 88px;
+		margin-left: 0;
+		margin-right: 0;
+		padding: 0;
+	}
+	.xs-menu > ul > li.active{
+		background-color: #242a3c;
+	}
+	.xs-menu > ul a:hover{
+		text-decoration: none;
+	}
+	.xs-menu > ul > li > a{
+		font-size: 16px;
+		color: #fff;
+		padding: 10px 30px 10px 50px;
+		display: block;
+		background-image: url(../images/xs-nav-ico.png);
+		background-repeat: no-repeat;
+		-moz-background-size: auto 500%;
+		-webkit-background-size: auto 500%;
+		-o-background-size: auto 500%;
+		background-size: auto 500%;
+	}
+	.xs-menu > ul > li:nth-child(2) > a{
+		background-position: 0 -40px;
+	}
+	.xs-menu > ul > li:nth-child(3) > a{
+		background-position: 0 -80px;
+	}
+	.xs-menu > ul > li:nth-child(4) > a{
+		background-position: 0 -120px;
+	}
+	.xs-menu > ul > li:nth-child(5) > a{
+		background-position: 0 -160px;
+	}
+	.xs-menu > ul > li > ul{
+		display: none;
+	}
+	.xs-menu > ul > li.active > ul{
+		display: block;
+	}
+	.xs-menu > ul > li > ul a{
+		font-size: 14px;
+		color: #8c90a0;
+		padding:  10px 30px 10px 50px;
+		display: block;
+	}
+	.xs-menu > ul > li > ul a:hover,.xs-menu > ul > li > ul >li.active a{
+		background-color: #1e2333;
+	}
+	footer{
+		text-align: center;			
+	}
+	footer img{
+		width: 60%;
+	}
+	footer p{
+		font-size: 12px;
+		margin: 10px auto;
+	}
+}

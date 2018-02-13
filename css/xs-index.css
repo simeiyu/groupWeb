@@ -1,0 +1,254 @@
+@media (max-width: 767px) {
+	.leader,.own,.cultrue{
+		padding-top: 40px;
+		padding-bottom: 20px;
+	}
+	.cultrue{
+		padding-bottom: 80px;
+	}
+	.carousel{
+		overflow: hidden;
+	}
+	.home .carousel-caption,.home .carousel-indicators {
+		width: 100%;
+		left: 0;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.home .carousel-caption{
+		padding-bottom: 80px;
+		padding-top: 80px;
+	}
+	.home .item:nth-child(1) .linear{
+		background-image: url(../images/slide-1-xs.jpg);
+	}
+	.home .item:nth-child(2) .linear{
+		background-image: url(../images/slide-2-xs.jpg);
+	}
+	.home .item:nth-child(3) .linear{
+		background-image: url(../images/slide-3-xs.jpg);
+	}
+	.home .item h1{
+		font-size: 40px;
+		line-height: 1.4;
+		margin-bottom: 20px;
+	}
+	.home .item p{
+		font-size: 13px;
+		line-height: 1.6;
+	}
+	.home .item ul{
+		width: 300px;
+	}
+	.home .item ul li,.home .item ul li span{
+		width: 68px;
+		height: 68px;
+	}
+	.home .item ul li span{
+		font-size: 14px;
+	}
+	.home .item ul li:nth-child(2) span,.home .item ul li:nth-child(5) span,.home .item ul li:nth-child(9) span{
+		font-size: 12px;
+	}
+	.home .item ul li:nth-child(1){
+		left: -20px;
+		top: 20px;		
+	}
+	.home .item ul li:nth-child(2){
+		left: 80px;
+		top:0;
+		-moz-transform: scale(1.6);
+		-ms-transform: scale(1.6);
+		-webkit-transform: scale(1.6);
+		-o-transform: scale(1.6);
+		transform: scale(1.6);
+	}
+	.home .item ul li:nth-child(3){
+		left: 160px;
+		top: 10px;
+	}
+	.home .item ul li:nth-child(4){
+		left: 14px;
+		top: 68px;
+	}
+	.home .item ul li:nth-child(5){
+		left: 60px;
+		top: 140px;
+		transform: scale(1.8);
+	}
+	.home .item ul li:nth-child(6){
+		left: 120px;
+		top: 80px;
+	}
+	.home .item ul li:nth-child(7){
+		right: -10px;
+		top:10px;
+	}
+	.home .item ul li:nth-child(8){
+		left: 200px;
+	}
+	.home .item ul li:nth-child(9){
+		left: 220px;
+		top:160px;
+		-ms-transform: scale(1.6);
+		-moz-transform: scale(1.6);
+		-webkit-transform: scale(1.6);
+		-o-transform: scale(1.6);
+		transform: scale(1.6);
+	}
+	.home .carousel-indicators > li{
+		width: 8px;
+		height:8px;
+		background-color: hsla(0, 0%, 100%, 1);
+		margin: 0 20px 0 8px;
+		-ms-border-radius: 8px;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		-o-border-radius: 8px;
+		border-radius: 8px;
+	}
+	.home .carousel-indicators > li.active:before{
+		content: "";
+		position: absolute;
+		width: 16px;
+		height: 16px;
+		border:solid 1px hsla(0, 0%, 100%, 1);
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+		-ms-border-radius: 16px;
+		-o-border-radius: 16px;
+		border-radius: 16px;
+		left: -5px;
+		top: -5px;
+	}
+	.leader h1, .own h1 {
+		font-size: 24px;
+	}
+	.leader h1 > small, .own h1 > small{
+		margin-top: 12px;
+	}
+	.leader p,.own p,.cultrue p{
+		font-size: 12px;
+	}
+	.leader p ,.cultrue p{
+		margin: 2em auto 0;
+		width: 90%;
+	}
+	.leader p.visible-xs + p{
+		margin: 1.2em auto 0;
+	}
+	.leader p a{
+		padding:5px 32px;
+		font-size: 14px;
+	}
+	.own .row{
+		margin-top: 2em;
+	}
+	.own .row > div:not(:last-child){
+		margin-bottom: 2em;
+	}
+	.own h4{	
+		margin-top: 1em;
+		font-size: 14px;
+	}
+	.own .row a{
+		color:#34495e;
+		font-size: 12px;
+	}
+	.cultrue img{
+		margin-bottom: 1em;
+	}
+	.cultrue .row article{
+		padding: 0;
+	}
+	.cultrue h1{
+		font-size: 32px;
+		margin-bottom: 0;
+	}
+	.process{
+		height: 640px;
+	}
+	.bgMove{	
+		background-image: url(../images/img-process-xs.jpg);	
+		background-repeat: no-repeat;	
+		background-position: center top; 
+		-ms-background-size: auto 100%;
+		-webkit-background-size: auto 100%;
+		-moz-background-size: auto 100%;
+		-o-background-size: auto 100%;
+		background-size: auto 100%;
+	}
+	.process h1{
+		margin-left: 50px;
+		height: 80px;
+	}
+	.processTab{
+		margin-left: 50px;
+		height: 600px;
+		position: relative;
+		padding: 3em 0;
+	}
+	.processTab h3{
+		font-size: 36px;
+	}
+	.processTab .tab-content .carousel p{
+		font-size: 14px;
+	}
+	.processTab .tab-content .carousel{
+		padding: 0 10px 0 40px;
+	}
+	.processTab .carousel-control{
+		width: 40px;
+		height: 40px;
+		top: 6px;
+	}
+	.processTab .carousel-control.left{
+		left: 0;
+	}
+	.processTab .carousel-control.right{
+		left: 116px;
+	}
+	.processTab .nav > li > a{
+		font-size: 18px;
+		line-height: 1;
+	}
+	.processTab .nav::before,.processTab .nav::after{
+		width: 80px;
+	}
+	.processTab .nav::before{
+		left: -82px;
+	}
+	.processTab .nav::after{
+		right: -80px;
+	}
+	.navBar{
+		position: absolute;
+		left:-10px;
+		top: 0;
+		-moz-transform-origin: top left;
+		-webkit-transform-origin: top left;
+		-o-transform-origin: top left;
+		transform-origin: top left;
+		-webkit-transform: rotate(90deg);
+		-moz-transform: rotate(90deg);
+		-o-transform: rotate(90deg);
+		transform: rotate(90deg);
+		width: 500px;
+	}
+	.processTab .navBar:before{
+		left: -82px;
+		width: 80px;
+	}
+	.processTab .navBar:after{
+		right: -60px;
+		width: 60px;
+	}
+	.processTab .tab-content .carousel p{
+		font-size: 12px;
+		margin-bottom: 1em;
+		width: 100%;
+	}	
+	.processTab .navBar .block {
+		width:70px;
+	}
+}
